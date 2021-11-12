@@ -4,6 +4,8 @@ from time import time
 from math import hypot
 import mediapipe as mp
 import matplotlib.pyplot as plt
+import threading
+# import time
 
 
 # Initialize mediapipe pose class.
@@ -325,7 +327,7 @@ camera_video.set(3, 1280)
 camera_video.set(4, 960)
 
 # Create named window for resizing purposes.
-cv2.namedWindow('Subway Surfers with Pose Detection', cv2.WINDOW_NORMAL)
+# cv2.namedWindow('Subway Surfers with Pose Detection', cv2.WINDOW_NORMAL)
 
 # Initialize a variable to store the time of the previous frame.
 time1 = 0
@@ -349,6 +351,9 @@ counter = 0
 
 # Initialize the number of consecutive frames on which we want to check if person hands joined before starting the game.
 num_of_frames = 10
+
+# outputFrame = None
+# lock = threading.Lock()
 
 # Iterate until the webcam is accessed successfully.
 while camera_video.isOpened():
@@ -533,6 +538,8 @@ while camera_video.isOpened():
 
     # Display the frame.
     cv2.imshow('Subway Surfers with Pose Detection', frame)
+#     with lock:
+# 	    outputFrame = frame.copy()
 
     # Wait for 1ms. If a a key is pressed, retreive the ASCII code of the key.
     k = cv2.waitKey(1) & 0xFF
