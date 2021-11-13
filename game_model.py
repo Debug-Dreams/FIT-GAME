@@ -560,6 +560,9 @@ while camera_video.isOpened():
         break
 
 # Release the VideoCapture Object and close the windows.
+
+
 speak("Hope you enjoyed Playing!")
 camera_video.release()
 cv2.destroyAllWindows()
+

@@ -569,3 +569,6 @@ while camera_video.isOpened():
 speak("Congatulations! you have unlocked the game as a reward")
 camera_video.release()
 cv2.destroyAllWindows()
+
+import webbrowser
+webbrowser.open('https://fitgame.herokuapp.com/games')
