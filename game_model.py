@@ -4,7 +4,8 @@ from time import time
 from math import hypot
 import mediapipe as mp
 import matplotlib.pyplot as plt
-import threading
+import pyttsx3
+# import threading
 # import time
 
 
@@ -319,6 +320,11 @@ def checkJumpCrouch(image, results, MID_Y=250, draw=False, display=False):
         # Return the output image and posture indicating whether the person is standing straight or has jumped, or crouched.
         return output_image, posture
 
+def speak(a):
+     textspeech = pyttsx3.init()
+     speak = a
+     textspeech.say(speak)
+     textspeech.runAndWait()
 
 # RUNNING MAIN PROGRAM
 # Initialize the VideoCapture object to read from the webcam.
@@ -327,7 +333,7 @@ camera_video.set(3, 1280)
 camera_video.set(4, 960)
 
 # Create named window for resizing purposes.
-# cv2.namedWindow('Subway Surfers with Pose Detection', cv2.WINDOW_NORMAL)
+cv2.namedWindow('Play Game', cv2.WINDOW_NORMAL)
 
 # Initialize a variable to store the time of the previous frame.
 time1 = 0
@@ -354,6 +360,10 @@ num_of_frames = 10
 
 # outputFrame = None
 # lock = threading.Lock()
+
+speak("Congratulations on unlocking this game")
+speak("Your avatar on the game will copy your actions")
+speak("Have fun playing!")
 
 # Iterate until the webcam is accessed successfully.
 while camera_video.isOpened():
@@ -537,7 +547,7 @@ while camera_video.isOpened():
     # ----------------------------------------------------------------------------------------------------------------------
 
     # Display the frame.
-    cv2.imshow('Subway Surfers with Pose Detection', frame)
+    cv2.imshow('Play Game', frame)
 #     with lock:
 # 	    outputFrame = frame.copy()
 
@@ -550,5 +560,6 @@ while camera_video.isOpened():
         break
 
 # Release the VideoCapture Object and close the windows.
+speak("Hope you enjoyed Playing!")
 camera_video.release()
 cv2.destroyAllWindows()
