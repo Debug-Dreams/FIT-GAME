@@ -3,6 +3,11 @@
 Fit Again with Fit-Game
 A gamified Fitness Experience
 
+You can access the webapp through the link : https://fitgame.herokuapp.com/
+
+![image](https://user-images.githubusercontent.com/75574159/141606917-f5a8caaa-9c9c-4b38-9bb0-b5485bc65d6b.png)
+
+
 ### Problem Statement
 - Children nowadays are constantly engrossed in video games and usually, they use their phones for the same which impacts their health negatively.Just sitting in one place and playing games for a long time restricts the physical movement of people and makes them lethargic as well. Often this leads to some adverse consequences such as weakening of muscles and thus proves to be a poor resort to enjoyment.
 - People nowadays have terribly hectic schedules, they don’t have time to go to the gym. Physical Inactivity can lead to both physical as well as mental diseases.
@@ -19,16 +24,9 @@ Most of the existing solutions in the market are:
 - Do not have an option of actual game playing while exercising in real-time and being active.
 
 ### How is this Different
-There is no other web application that analyses live video and transforms the physical experience of exercising and working out into entertaining activities for children.
 
-- Tackles New-Age Problems
-Kids get a complete Gaming Experience through this platform. Also helps to tackle the growing problems of laziness and obesity
+![image](https://user-images.githubusercontent.com/75574159/141606968-06f3e026-efcf-4510-ba43-7f793773117b.png)
 
-- Kids Friendly Interface
-Easy to use interface which is Child Friendly and doesn't require extra effort to play engaging games
-
-- Motivating through Rewards
-Have multiple rewards like Points, Badges, and leaderboards to showcase Achievements with multiple challenges along the way.
 
 ### TechStack
 
@@ -36,7 +34,7 @@ Have multiple rewards like Points, Badges, and leaderboards to showcase Achievem
 Firstly, We will use Python, Machine Learning, Deep Learning for training our model and capturing real-time gestures. We will use different libraries like TensorFlow, OpenCV, MediaPipe for this purpose.
 
 - Step 2 Implementing The Model
-We will create a game to implement our model. We will use Unity for creating this game and we will integrate our python model with this game.
+We will create a game to implement our model. We will use Scratch for creating this game and we will integrate our python model with this game.
 
 ### Implementation
 
@@ -48,3 +46,7 @@ On entering the game the user will have to move in real life so as to have the a
 - With growing concerns about children's health and the addictive nature of video games, we need a solution that incorporates both enjoyment and health.
 - Following the Covid-19 pandemic, the use of video and mobile games has skyrocketed, wreaking havoc on people's health.
 - So we can confidently state that this application has a bright future ahead of it and a noble goal of getting our children back in shape.
+
+
+![Untitled design](https://user-images.githubusercontent.com/75574159/141607104-18671f83-67cb-4307-ac2e-c19e18099e31.jpg)
+
