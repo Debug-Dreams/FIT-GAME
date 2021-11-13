@@ -30,7 +30,7 @@ app.post("/", function (req, res) {
 
     if(play=="yes"){
        
-        console.log("hi")
+        // console.log("hi")
         res.redirect("/yoga")
     }        
 
@@ -39,7 +39,7 @@ app.post("/", function (req, res) {
 
 app.get("/yoga", function (req, res) {
  
-    console.log("hi pt2")
+    // console.log("hi pt2")
     res.render("yoga");
 
 });
@@ -101,10 +101,9 @@ app.get("/play", function (req, res) {
 // })
 
 
+// host=process.env.PORT
 
-
-
-app.listen(3000, function () {
+app.listen(3000 || process.env.PORT, function () {
 
     console.log("Server is up and running on port 3000");
 
