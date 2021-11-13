@@ -363,6 +363,7 @@ num_of_frames = 10
 
 speak("Congratulations on unlocking this game")
 speak("Your avatar on the game will copy your actions")
+speak("You get ten lives, each time you hit an obstacle you loose a life, so play carefully!")
 speak("Have fun playing!")
 
 # Iterate until the webcam is accessed successfully.
