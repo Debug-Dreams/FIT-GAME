@@ -545,8 +545,11 @@ while camera_video.isOpened():
             pose_detected.append(label_detected)
     
         
-    if len(pose_detected)==50:
+    if len(pose_detected)==30:
         i=i+1
+        if (i>len(pose_array)-1):
+            break
+        
         speak("Make the "+pose_array[i])
         pose_detected=[]
         
