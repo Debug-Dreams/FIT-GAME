@@ -103,7 +103,7 @@ app.get("/play", function (req, res) {
 
 // host=process.env.PORT
 
-app.listen(3000 || process.env.PORT, function () {
+app.listen(process.env.PORT || 3000, function () {
 
     console.log("Server is up and running on port 3000");
 
