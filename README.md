@@ -44,7 +44,7 @@ On entering the game the user will have to move in real life so as to have the a
 
 ![90623500-d05c-4f05-85ee-60dbf28ee7b1](https://user-images.githubusercontent.com/76937237/141834624-da8a7519-86f7-4cc5-b8b0-418c3a975cb5.gif)
 
-<img width="910" alt="Screenshot 2021-11-15 233944" src="https://user-images.githubusercontent.com/76937237/141832672-1137919e-b156-4672-a57f-39ea80e4bf6e.png">
+<img width="1280" alt="Screenshot 2021-11-15 233944" src="https://user-images.githubusercontent.com/76937237/141832672-1137919e-b156-4672-a57f-39ea80e4bf6e.png">
 
 
 ### Future Scope
