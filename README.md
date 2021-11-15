@@ -41,6 +41,10 @@ We will create a game to implement our model. We will use Scratch for creating t
 - As soon as the user would enter the platform, he/she will be given some fitness tasks on the completion of which the user would earn some points and unlock the lives to play the game. 
 On entering the game the user will have to move in real life so as to have the avatar imitate the user on the screen. The user's real-time video will be recorded and his/her actions will be recognized through python, machine learning, deep learning, and some libraries like Tensor flow, Open CV, Media pipe. The recognized actions will be converted to actions of the avatar and would be replicated on the screen (in the game).
 - A leader board will be displayed which will motivate users to complete more challenges and earn Fit-Game badges
+<img width="916" alt="Screenshot 2021-11-15 233852" src="https://user-images.githubusercontent.com/76937237/141832700-9968e013-f9ad-4016-944e-8399dd9442fa.png">
+
+<img width="910" alt="Screenshot 2021-11-15 233944" src="https://user-images.githubusercontent.com/76937237/141832672-1137919e-b156-4672-a57f-39ea80e4bf6e.png">
+
 
 ### Future Scope
 - With growing concerns about children's health and the addictive nature of video games, we need a solution that incorporates both enjoyment and health.
